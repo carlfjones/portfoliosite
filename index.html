@@ -22,13 +22,19 @@
          <header class="header">carlfjones</header>
       <div class="navbar">
         <a href="" class="nav_link">Home</a>
-        <a href="#websites" class="nav_link">Websites</a>
-        <a href="" class="nav_link">Projects</a>
-        <a href="" class="nav_link">Contact</a>
+        <!-- <a onclick="dropdown_btn()" href="#" class="nav_link">Websites</a> -->
+        <a id="web_btn" href="#" class="nav_link">Websites</a>
+              <div id="dropdown" class="dropdown-content">
+                 <a id= "bjj_fit_btn" href="#bjj_fit_site">Bjj-fit</a>
+                 <a href="#">Link 2</a>
+                 <a href="#">Link 3</a>
+              </div>
+        <a id="proj_btn" href="" class="nav_link">Projects</a>
+        <a id="cont_btn" href="" class="nav_link">Contact</a>
       </div>
     </section>
-    <section class="websites" id="websites">
-      <div class="website_title" data-aos="fade-up" data-aos-duration="2000">
+    <section class="bjj_fit_site" id="bjj_fit_site">
+      <div class="bjj_fit_title" data-aos="fade-up" data-aos-duration="2000">
         <div class="content">
          <h3>Bjj-fit Website</h3>
          <p>I design and maintain the website and all marketing materials
@@ -44,10 +50,11 @@
     </section>
 
     <!-- <script src="./assets/js/main.js"></script> -->
+     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./node_modules/aos/dist/aos.js"></script>
-    <script>
-      AOS.init();
-    </script>
+    <script>AOS.init();</script>
+    <script src="./assets/js/main.js"></script>
+   
   </body>
 </html>
 

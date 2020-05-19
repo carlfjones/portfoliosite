@@ -109,8 +109,33 @@ html {
         align-items:center;
     }
 
+    .dropdown-content {
+        display: none;
+        position: relative;
+        top: 120px;
+        right: 50px;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 3;
+        border-radius: 20px;
+    }
 
-    .websites {
+    .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #ddd;
+        border-radius: 20px;
+    }
+
+
+
+    .bjj_fit_site {
         padding: 20px;
         height: 100vh;
         width: 97vw;
@@ -121,7 +146,7 @@ html {
         row-gap: 20px;
     }
 
-    .website_title {
+    .bjj_fit_title {
         padding-left: 10px;
         background-color:whitesmoke;
         grid-area: 1 / 1 / 7 / 3;
@@ -161,3 +186,5 @@ html {
         background-size: cover;
         box-shadow: 3px 3px 5px 5px rgb(219, 219, 219);
     }
+
+    

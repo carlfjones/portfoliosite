@@ -1,7 +1,12 @@
-// import AOS from 'aos';
-// import 'aos/dist/aos.css'; // You can also use <link> for styles
-// ..
-import AOS from '../../node_modules/aos';
-import '../../node_modules/aos/dist/aos.css';
 
-AOS.init();
+var dropdown = document.getElementById("dropdown");
+
+// function dropdown_btn() {
+//     dropdown.classList.toggle("show");
+// }
+
+$(document).ready(function() {
+    $("#web_btn").click(function(){
+      $("#dropdown").fadeIn(1000);
+    });
+  });
