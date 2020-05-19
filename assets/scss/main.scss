@@ -113,7 +113,7 @@ html {
     .websites {
         padding: 20px;
         height: 100vh;
-        width: 95vw;
+        width: 97vw;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -143,7 +143,7 @@ html {
         box-shadow: 3px 3px 5px 5px rgb(219, 219, 219);
     }
     .bjj_2 {
-        grid-area: 3 / 5 / 5 / 7;
+        grid-area: 3 / 3 / 5 / 5;
         background-image: url("../imgs/bjj2.png");
         background-size: cover;
         box-shadow: 3px 3px 5px 5px rgb(219, 219, 219);
@@ -151,6 +151,13 @@ html {
     .bjj_3 {
         grid-area: 5 / 3 / 7 / 5;
         background-image: url("../imgs/bjj3.png");
+        background-size: cover;
+        box-shadow: 3px 3px 5px 5px rgb(219, 219, 219);
+    }
+
+    .bjj_fit_programme {
+        grid-area: 1 / 5 / 7 / 7;
+        background-image: url("../imgs/Programme.jpg");
         background-size: cover;
         box-shadow: 3px 3px 5px 5px rgb(219, 219, 219);
     }
