@@ -1,33 +1,34 @@
-
-var dropdown = document.getElementById("dropdown");
-var web_btn = document.getElementById("web_btn")
-
-// function dropdown_btn() {
-//     dropdown.classList.toggle("show");
-// }
+// Website Button
 
 $(document).ready(function() {
-
     $("#web_btn").click(function(){
-      $("#dropdown").fadeIn(1000);
+      $("#dropdown_bjj").fadeIn(1000);
       $("#web_btn").addClass("disabled");
-      testFunction();
     });
-
 });
 
 
-function testFunction() {
-    if (web_btn.classList.contains("disabled")){
-        // closeMenu(); 
+$(document).on('click', function(link) {
+    if (link.target.id != 'web_btn') {
+        $("#dropdown_bjj").fadeOut(1000);
+        $("#web_btn").removeClass("disabled");
     }
-}
+});
 
-// $(function() {
-    $(document).on('click', function(link) {
-        if (link.target.id != 'web_btn') {
-                $("#dropdown").fadeOut(1000);
-                $("#web_btn").removeClass("disabled");
-            }
-        })
-// });
+// Project Button
+
+$(document).ready(function() {
+    $("#proj_btn").click(function(){
+        console.log("Hello");
+      $("#dropdown_proj").fadeIn(1000);
+      $("#proj_btn").addClass("disabled");
+    });
+});
+
+
+$(document).on('click', function(link) {
+    if (link.target.id != 'proj_btn') {
+        $("#dropdown_proj").fadeOut(1000);
+        $("#proj_btn").removeClass("disabled");
+    }
+});
