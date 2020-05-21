@@ -1,0 +1,3 @@
+[submodule "mo_js_animations"]
+	path = mo_js_animations
+	url = https://github.com/carlfjones/mo_js_animations
