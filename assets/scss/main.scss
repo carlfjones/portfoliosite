@@ -376,53 +376,47 @@ html {
 
     #hd_1 {
         grid-area: 1 / 5 / 3 / 7;
-        background-image: url("../imgs/hey_days/1.png");
+        background-image: url("../imgs/hey_days/1.jpg");
         background-size: cover;
         box-shadow: 3px 3px 5px 5px rgb(219, 219, 219);
     }
     #hd_2 {
         grid-area: 3 / 4 / 5 / 6;
-        background-image: url("../imgs/hey_days/2.png");
+        background-image: url("../imgs/hey_days/2.jpg");
         background-size: cover;
         box-shadow: 3px 3px 5px 5px rgb(219, 219, 219);
     }
     #hd_3 {
         grid-area: 5 / 3 / 7 / 5;
-        background-image: url("../imgs/hey_days/3.png");
+        background-image: url("../imgs/hey_days/3.jpg");
         background-size: cover;
         box-shadow: 3px 3px 5px 5px rgb(219, 219, 219);
     }
     #hd_4 {
         grid-area: 1 / 4 / 3 / 5;
-        background: url("../imgs/hey_days/icons/Html.png") no-repeat center;
+        background: url("../imgs/hey_days/Icons/Html.jpg") no-repeat center;
         background-size: 75% 90%;
         box-shadow: 3px 3px 5px 5px rgb(219, 219, 219);
     }
     #hd_5 {
         grid-area: 3 / 3 / 5 / 4;
-        background: url("../imgs/hey_days/icons/js.png") no-repeat center;
+        background: url("../imgs/hey_days/icons/js.jpg") no-repeat center;
         background-size: 75% 90%;
         box-shadow: 3px 3px 5px 5px rgb(219, 219, 219);
     }
     #hd_6 {
         grid-area: 3 / 6 / 5 / 7;
-        background: url("../imgs/hey_days/icons/css.png") no-repeat center;
+        background: url("../imgs/hey_days/icons/css.jpg") no-repeat center;
         background-size: 75% 90%;
         box-shadow: 3px 3px 5px 5px rgb(219, 219, 219);
     }
     #hd_7 {
-        grid-area: 3 / 6 / 5 / 7;
-        background: url("../imgs/hey_days/icons/css.png") no-repeat center;
-        background-size: 75% 90%;
-        box-shadow: 3px 3px 5px 5px rgb(219, 219, 219);
-    }
-    #hd_8 {
         grid-area: 5 / 5 / 6 / 6;
         background: url("../imgs/hey_days/icons/Screenshot\ 2020-05-27\ at\ 15.16.32.png") no-repeat center;
         background-size: 90% 50%;
         box-shadow: 3px 3px 5px 5px rgb(219, 219, 219);
     }
-    #hd_9 {
+    #hd_8 {
         grid-area: 6 / 5 / 7 / 6;
         background: url("../imgs/hey_days/icons/Screenshot\ 2020-05-27\ at\ 15.17.03.png") no-repeat center;
         background-size: 90% 85%;
@@ -430,7 +424,7 @@ html {
     }
 
     
-// Dragon Project section
+// Carlexa Project section
     
 .carlexa_section {
     padding: 20px;
@@ -499,18 +493,4 @@ html {
     background-position: center;
     // box-shadow: 3px 3px 5px 5px rgb(219, 219, 219);
 }
-// #drag_proj_6 {
-//     grid-area: 5 / 4 / 6 / 6;
-//     background-image: url("../imgs/Dragon/Unity.png");
-//     background-size: 95%;
-//     background-position: center;
-//     box-shadow: 3px 3px 5px 5px rgb(219, 219, 219);
-// }
-// #drag_proj_7 {
-//     grid-area: 6 / 4 / 7 / 5;
-//     background-image: url("../imgs/Dragon/Visual-Studio-01.png");
-//     background-size: 85%;
-//     background-position: center;
-//     box-shadow: 3px 3px 5px 5px rgb(219, 219, 219);
-// }
 
