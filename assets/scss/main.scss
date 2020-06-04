@@ -198,6 +198,20 @@ html {
     }
 
 
+    //Website title
+    .section_title {
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        h2 {
+            font-family: 'Quicksand', sans-serif;
+            font-weight: 300;
+            text-transform: uppercase;
+            letter-spacing: 10px;
+        }
+    }
 
 //Bjj-fit Website Section
 
@@ -229,19 +243,19 @@ html {
 
     #bjj_1 {
         grid-area: 1 / 3 / 3 / 5;
-        background-image: url("../imgs/bjj1.png");
+        background-image: url("../imgs/bjj1.jpg");
         background-size: cover;
         box-shadow: 3px 3px 5px 5px rgb(219, 219, 219);
     }
     #bjj_2 {
         grid-area: 3 / 3 / 5 / 5;
-        background-image: url("../imgs/bjj2.png");
+        background-image: url("../imgs/bjj2.jpg");
         background-size: cover;
         box-shadow: 3px 3px 5px 5px rgb(219, 219, 219);
     }
     #bjj_3 {
         grid-area: 5 / 3 / 7 / 5;
-        background-image: url("../imgs/bjj3.png");
+        background-image: url("../imgs/bjj3.jpg");
         background-size: cover;
         box-shadow: 3px 3px 5px 5px rgb(219, 219, 219);
     }
@@ -482,7 +496,7 @@ html {
 }
 #carlexa_proj_4 {
     grid-area: 1 / 5 / 5 / 7;
-    background: url("../imgs/Carlexa/Cat.png") no-repeat center;
+    background: url("../imgs/Carlexa/Cat.jpg") no-repeat center;
     background-size: 95% 95%;
     box-shadow: 3px 3px 5px 5px rgb(219, 219, 219);
 }
