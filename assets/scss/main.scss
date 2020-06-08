@@ -54,6 +54,19 @@ html {
     align-items: center;
     padding-bottom: 60px;
 
+    @media only screen and (max-width: 1200px) {
+        font-size: 200px;
+    } 
+    @media only screen and (max-width: 992px) {
+        font-size: 150px;
+    } 
+    @media only screen and (max-width: 768px) {
+        font-size: 120px;
+    } 
+    @media only screen and (max-width: 600px) {
+        font-size: 60px;
+    } 
+
 }
 
 .smalltxt {
@@ -128,8 +141,8 @@ html {
 }
 
 .menu_container1{
-    margin-left: 120px;
-    margin-right: 40px;
+    // margin-left: 80px;
+    margin-right: 50px;
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;
@@ -137,7 +150,7 @@ html {
     height: 200px;
 }
 .menu_container2{
-    margin-right: 160px;
+    margin-right: 150px;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -224,6 +237,10 @@ html {
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
         column-gap: 20px;
         row-gap: 20px;
+
+        @media only screen and (max-width: 900px) {
+            display: flex;
+        }
     }
 
     .bjj_fit_title {
@@ -408,31 +425,31 @@ html {
     }
     #hd_4 {
         grid-area: 1 / 4 / 3 / 5;
-        background: url("../imgs/hey_days/Icons/Html.jpg") no-repeat center;
+        background: url("../imgs/hey_days/Html.jpg") no-repeat center;
         background-size: 75% 90%;
         box-shadow: 3px 3px 5px 5px rgb(219, 219, 219);
     }
     #hd_5 {
         grid-area: 3 / 3 / 5 / 4;
-        background: url("../imgs/hey_days/icons/js.jpg") no-repeat center;
+        background: url("../imgs/hey_days/js.jpg") no-repeat center;
         background-size: 75% 90%;
         box-shadow: 3px 3px 5px 5px rgb(219, 219, 219);
     }
     #hd_6 {
         grid-area: 3 / 6 / 5 / 7;
-        background: url("../imgs/hey_days/icons/css.jpg") no-repeat center;
+        background: url("../imgs/hey_days/css.jpg") no-repeat center;
         background-size: 75% 90%;
         box-shadow: 3px 3px 5px 5px rgb(219, 219, 219);
     }
     #hd_7 {
         grid-area: 5 / 5 / 6 / 6;
-        background: url("../imgs/hey_days/icons/Screenshot\ 2020-05-27\ at\ 15.16.32.png") no-repeat center;
+        background: url("../imgs/hey_days/lb.jpg") no-repeat center;
         background-size: 90% 50%;
         box-shadow: 3px 3px 5px 5px rgb(219, 219, 219);
     }
     #hd_8 {
         grid-area: 6 / 5 / 7 / 6;
-        background: url("../imgs/hey_days/icons/Screenshot\ 2020-05-27\ at\ 15.17.03.png") no-repeat center;
+        background: url("../imgs/hey_days/aos.jpg") no-repeat center;
         background-size: 90% 85%;
         box-shadow: 3px 3px 5px 5px rgb(219, 219, 219);
     }
