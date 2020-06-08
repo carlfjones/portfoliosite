@@ -21,6 +21,10 @@ html {
     align-items: center;
     justify-content: stretch;
 
+    @media only screen and (max-width: 992px) {
+        justify-content: center;
+    }
+
 }
 #home_logo_wrapper {
     cursor: pointer;
@@ -123,12 +127,21 @@ html {
                 // border-color:white;
             }
         }
+        @media only screen and (max-width: 600px) {
+            padding: 10px;
+            margin: 10px;
+          } 
     }
+
     
     .navbar {
         display:flex;
         justify-content:center;
         align-items:center;
+
+        @media only screen and (max-width: 600px) {
+          font-size: 12px;
+        } 
     }
 
 
@@ -138,6 +151,11 @@ html {
     padding-top: 10px;
     width: 100vw;
     display: flex;
+    @media only screen and (max-width: 600px) {
+        flex-direction: row;
+        justify-content: flex-start;
+        padding-left: 40px;
+     } 
 }
 
 .menu_container1{
@@ -148,6 +166,11 @@ html {
     justify-content: flex-end;
     width: 50vw;
     height: 200px;
+    @media only screen and (max-width: 600px) {
+        margin: 0;
+        font-size: 12px;
+        width: 30vw;
+     } 
 }
 .menu_container2{
     margin-right: 150px;
@@ -156,6 +179,11 @@ html {
     justify-content: flex-start;
     width: 50vw;
     height: 200px;
+    @media only screen and (max-width: 600px) {
+        margin: 0;
+        font-size: 12px;
+        width: 30vw;
+     } 
 }
 
     a.disabled {
