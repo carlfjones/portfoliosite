@@ -159,7 +159,6 @@ html {
 }
 
 .menu_container1{
-    // margin-left: 80px;
     margin-right: 50px;
     display: flex;
     align-items: flex-start;
@@ -173,7 +172,7 @@ html {
      } 
 }
 .menu_container2{
-    margin-right: 150px;
+    margin-right: 180px;
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
@@ -183,7 +182,12 @@ html {
         margin: 0;
         font-size: 12px;
         width: 30vw;
+
+        
      } 
+}
+a {
+    text-align: center;
 }
 
     a.disabled {
