@@ -1,3 +1,38 @@
+const navSlide = () => {
+
+    const websites = document.getElementById('web_btn')
+    const website_links = document.querySelector('.website_links');
+
+
+    websites.addEventListener('click', () => {
+        website_links.classList.toggle('nav-active');
+    })
+
+}
+
+const app = () => {
+    navSlide();
+}
+
+app();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Website Button
 
 $(document).ready(function() {

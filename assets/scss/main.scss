@@ -1,7 +1,5 @@
 body {
     font-family: 'Playfair Display', serif;
-    font-weight: 900;
-    font-style: italic;
     margin: 0px;
     padding: 0px;
 }
@@ -10,45 +8,130 @@ html {
     scroll-behavior: smooth;
   }
 
-//landing page code  
+.header {
+    height: 6vh;
+}
 
-.landingsection {
-    overflow: hidden;
-    padding-top: 75px;
-    background-image: url("../imgs/Background.jpg");
-    background-size: cover;
-    width: 100vw;
-    height: 100vh;
+nav {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 6vh;
+    background-color: rgb(52, 77, 85);
+
+    .nav-links {
+        padding: 0;
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+        width: 75%;
+        
+        a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 8vh;
+            width: 80px;
+            transition: all 0.5s ease;
+            &:hover {
+                color: rgb(52, 77, 85);
+            }
+            color: white;
+            text-decoration: none;
+        }
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.5s ease;
+            height: 6vh;
+            &:hover {
+                cursor: pointer;
+                color: rgb(52, 77, 85);
+                background-color: whitesmoke;
+            }
+            list-style: none;
+        }
+        
+    }
+   
+}
+
+.website_links {
+    position: absolute;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    justify-content: stretch;
-
-    @media only screen and (max-width: 992px) {
+    z-index: 1;
+    width: 200px;
+    height: 400px;
+    background-color: whitesmoke;
+    transition: all 0.5s ease;
+    transform: translateX(-100%);
+    ul {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        font-weight: 200;
+        padding: 0;
+        display: flex;
         justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 600px;
+        justify-content: space-evenly;
+        list-style-type: none;
+        li {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 100px;
+            transition: all 0.5s ease;
+            &:hover {
+                background-color: rgb(52, 77, 85);
+                color: whitesmoke;
+            }
+        }
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100px;
+            width: 200px;
+            text-decoration: none;
+            color: rgb(52, 77, 85);
+            transition: all 0.5s ease;
+            &:hover {
+                color: whitesmoke;
+            }
+
+        }
+    }
+    
+}
+
+.nav-active {
+    transform: translateX(0%);
+}
+
+//landing page code  
+
+.landing_page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    // height: 100vh;
+    .video {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
     }
 
-}
-#home_logo_wrapper {
-    cursor: pointer;
-}
-
-.home_logo {
-    margin-top: -60px;
-    margin-left: 10px;
-    z-index: 2;
-    // background-color: whitesmoke;
-    background-image: url(../imgs/homeimglabel.png);
-    background-size: 100%;
-    background-position-x: center;
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    // margin-top: -65px;
-    align-self: flex-start;
-    width: 60px;
-    height: 60px;
-    border-bottom: 50%;
 }
 
 .header {
@@ -319,6 +402,7 @@ a {
             height: 20vh;
             width: 40vw;
             box-shadow: 1px 1px 2px 2px rgb(219, 219, 219);
+            margin: 6px;
         }
     }
     #bjj_2 {
@@ -330,6 +414,7 @@ a {
             height: 20vh;
             width: 40vw;
             box-shadow: 1px 1px 2px 2px rgb(219, 219, 219);
+            margin: 6px;
         }
     }
     #bjj_3 {
@@ -342,6 +427,7 @@ a {
             height: 20vh;
             width: 40vw;
             box-shadow: 1px 1px 2px 2px rgb(219, 219, 219);
+            margin: 6px;
         }
     }
 
@@ -354,6 +440,7 @@ a {
             height: 20vh;
             width: 40vw;
             box-shadow: 1px 1px 2px 2px rgb(219, 219, 219);
+            margin: 6px;
         }
     }
 
@@ -423,6 +510,7 @@ a {
             height: 20vh;
             width: 40vw;
             box-shadow: 1px 1px 2px 2px rgb(219, 219, 219);
+            margin: 6px;
         }
     }
     #drag_proj_2 {
@@ -435,6 +523,7 @@ a {
             height: 20vh;
             width: 40vw;
             box-shadow: 1px 1px 2px 2px rgb(219, 219, 219);
+            margin: 6px;
         }
     }
     #drag_proj_3 {
@@ -447,6 +536,7 @@ a {
             height: 20vh;
             width: 40vw;
             box-shadow: 1px 1px 2px 2px rgb(219, 219, 219);
+            margin: 6px;
         }
     }
     #drag_proj_4 {
@@ -459,6 +549,7 @@ a {
             height: 20vh;
             width: 40vw;
             box-shadow: 1px 1px 2px 2px rgb(219, 219, 219);
+            margin: 6px;
         }
     }
     #drag_proj_5 {
@@ -471,6 +562,7 @@ a {
             height: 20vh;
             width: 40vw;
             box-shadow: 1px 1px 2px 2px rgb(219, 219, 219);
+            margin: 6px;
         }
     }
     #drag_proj_6 {
@@ -483,6 +575,7 @@ a {
             height: 10vh;
             width: 40vw;
             box-shadow: 1px 1px 2px 2px rgb(219, 219, 219);
+            margin: 6px;
         }
     }
     #drag_proj_7 {
@@ -495,6 +588,7 @@ a {
             height: 10vh;
             width: 40vw;
             box-shadow: 1px 1px 2px 2px rgb(219, 219, 219);
+            margin: 6px;
         }
     }
 
@@ -550,6 +644,7 @@ a {
             height: 20vh;
             width: 40vw;
             box-shadow: 1px 1px 2px 2px rgb(219, 219, 219);
+            margin: 6px;
         }
     }
     #hd_2 {
@@ -562,6 +657,7 @@ a {
             height: 20vh;
             width: 40vw;
             box-shadow: 1px 1px 2px 2px rgb(219, 219, 219);
+            margin: 6px;
         }
     }
     #hd_3 {
@@ -574,6 +670,7 @@ a {
             height: 20vh;
             width: 40vw;
             box-shadow: 1px 1px 2px 2px rgb(219, 219, 219);
+            margin: 6px;
         }
     }
     #hd_4 {
@@ -583,8 +680,9 @@ a {
         box-shadow: 3px 3px 5px 5px rgb(219, 219, 219);
         @media only screen and (max-width: 992px) {
             height: 15vh;
-            width: 30vw;
+            width: 100px;
             box-shadow: 1px 1px 2px 2px rgb(219, 219, 219);
+            margin: 6px;
         }
     }
     #hd_5 {
@@ -594,8 +692,9 @@ a {
         box-shadow: 3px 3px 5px 5px rgb(219, 219, 219);
         @media only screen and (max-width: 992px) {
             height: 15vh;
-            width: 30vw;
+            width: 100px;
             box-shadow: 1px 1px 2px 2px rgb(219, 219, 219);
+            margin: 6px;
         }
     }
     #hd_6 {
@@ -605,8 +704,9 @@ a {
         box-shadow: 3px 3px 5px 5px rgb(219, 219, 219);
         @media only screen and (max-width: 992px) {
             height: 15vh;
-            width: 30vw;
+            width: 100px;
             box-shadow: 1px 1px 2px 2px rgb(219, 219, 219);
+            margin: 6px;
         }
     }
     #hd_7 {
@@ -618,6 +718,7 @@ a {
             height: 10vh;
             width: 40vw;
             box-shadow: 1px 1px 2px 2px rgb(219, 219, 219);
+            margin: 6px;
         }
     }
     #hd_8 {
@@ -629,6 +730,7 @@ a {
             height: 14vh;
             width: 50vw;
             box-shadow: 1px 1px 2px 2px rgb(219, 219, 219);
+            margin: 6px;
         }
     }
 
@@ -692,6 +794,7 @@ a {
         height: 25vh;
         width: 100vw;
         box-shadow: 1px 1px 2px 2px rgb(219, 219, 219);
+        margin: 6px;
     }
 }
 #carlexa_proj_2 {
@@ -703,6 +806,7 @@ a {
         height: 27vh;
         width: 100vw;
         box-shadow: 1px 1px 2px 2px rgb(219, 219, 219);
+        margin: 6px;
     }
 }
 #carlexa_proj_3 {
@@ -714,6 +818,7 @@ a {
         height: 27vh;
         width: 100vw;
         box-shadow: 1px 1px 2px 2px rgb(219, 219, 219);
+        margin: 6px;
     }
 }
 #carlexa_proj_4 {
@@ -725,6 +830,7 @@ a {
         height: 50vh;
         width: 100vw;
         box-shadow: 1px 1px 2px 2px rgb(219, 219, 219);
+        margin: 6px;
     }
 }
 #carlexa_proj_5 {
@@ -735,7 +841,7 @@ a {
     @media only screen and (max-width: 992px) {
         height: 50vh;
         width: 100vw;
-        box-shadow: 1px 1px 2px 2px rgb(219, 219, 219);
+
     }
 }
 

@@ -19,45 +19,56 @@
   </head>
   <body>
 
-    <!-- Landing page html -->
-    <a id="home_logo_wrapper" href="#"><div class="home_logo"></div></a>
-    <section class="landingsection">
-      
-      <p class="smalltxt">full stack developer</p>
-         <header class="header">carlfjones</header>
-      <div class="navbar">
-        <!-- <a href="#" class="nav_link">Home</a> -->
-        <a id="web_btn" href="#" class="nav_link">Websites</a>
-        <a id="proj_btn" href="#" class="nav_link">Projects</a>
-        <a id="cont_btn" target="_blank" href="https://www.instagram.com/thekingkuala/" class="nav_link">Instagram</a>
-      </div>
+    <header>
+      <nav>
+        <a href="./home.html"><img src="./assets/imgs/logo_white.png" alt="" class="logo1"></a>
 
-      <div class="menu_container">
-      
-      <div class="menu_container1">
-        <div id="dropdown_bjj" class="dropdown_content_bjj">
-         <a id= "bjj_fit_btn" href="#bjj_fit_site">Bjj-fit</a>
-         <a href="#hey_days_site">Hey Days Furniture</a>
-         <!-- <a href="#">Link 3</a> -->
-        </div>
-      </div>
+        <ul class="nav-links">
+            <li>
+                <a href="./about.html">About</a>
+            </li>
+            <li>
+                <div id="web_btn" href="">Websites</div>
+            </li>
 
-      <div class="menu_container2">
-        <div id="dropdown_proj" class="dropdown_content_proj">
-         <a id= "dragon" href="#dragon_proj_section">Dragons of the Carribean</a>
-         <a  href="#carlexa_section">Carlexa</a>
-         <a target="_blank" href="./animations.html">Animation Experiments</a>
-        </div>
-      </div>
+            <li>
+                <a href="./gallery.html">Projects</a>
+            </li>
 
-    </div>
+            <li>
+                <a href="./contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="website_links">
+      <ul class="website_nav_links">
+        <li>
+          <a href="1">Hey Days Furniture</a>
+        </li>
+        <li>
+          <a href="2">Matt Nicholson</a>
+        </li>
+        <li>
+          <a href="3">LeLeMa Fitness</a>
+        </li>
+      </ul>
     </section>
 
-<!-- 
-    Website title -->
+    </header>
+
+<!-- landing page -->
+    <section class="landing_page">
+      <video class="video" autoplay muted loop id="myVideo">
+        <source src="./assets/vids/my_video.mp4" type="video/mp4">
+      </video>
+    </section>
+
+
+<!-- Website title -->
 
     <section class="section_title">
-      <h2>Current website designs and builds.</h2>
+      <h2>Recent Project designs and builds.</h2>
     </section>
 
     <!-- BJJ-fit site -->
@@ -65,10 +76,11 @@
       <div class="bjj_fit_title" data-aos="fade-up" data-aos-duration="2000">
         <div class="content">
          <h3>Bjj-fit Website</h3>
-         <p>I design and maintain the website and all marketing materials
-           for Bjj-fit. This is a continuous project which marries my 
+         <p>I currently design and maintain the website and marketing materials
+           for the company Bjj-fit. This is a continuous project which marries my 
            passion for ju-jitsu, technology and design.
          </p>
+         <a href="https://www.bjj-fit.com/" target="_blank" id="github_button">Go to site...</a>
         </div>
       </div>
       <div id="bjj_1" data-aos="fade-right" data-aos-duration="2000"></div>
@@ -77,30 +89,6 @@
       <div id="bjj_fit_programme" data-aos="fade-up" data-aos-duration="2000"></div>
     </section>
 
-<!-- Hey Days Website -->
-<section class="hey_days_site" id="hey_days_site">
-  <div class="hey_days_title" data-aos="fade-up" data-aos-duration="2000">
-    <div class="content">
-     <h3>Hey Days <br>Furniture</h3>
-     <p>I was commissioned to design and build a site for a local furniture company.
-     </p>
-    </div>
-  </div>
-  <div id="hd_1" data-aos="fade-up" data-aos-duration="2000"></div>
-  <div id="hd_2" data-aos="fade-down" data-aos-duration="2000"></div>
-  <div id="hd_3" data-aos="fade-right" data-aos-duration="2000"></div>
-  <div id="hd_4" data-aos="fade-right" data-aos-duration="2000"></div>
-  <div id="hd_5" data-aos="fade-right" data-aos-duration="2000"></div>
-  <div id="hd_6" data-aos="fade-up" data-aos-duration="2000"></div>
-  <div id="hd_7" data-aos="fade-left" data-aos-duration="2000"></div>
-  <div id="hd_8" data-aos="fade-up" data-aos-duration="2000"></div>
-</section>
-
-
-<!-- Project title -->
-<section class="section_title">
-  <h2>Recent Projects.</h2>
-</section>
 
   <!-- Dragon project -->
 
@@ -108,8 +96,7 @@
     <div class="drag_proj_title" data-aos="fade-down" data-aos-duration="2000">
       <div class="content">
         <h3>Dragons Of The Carribean</h3>
-        <p>For my final project at Makers Academy, I made a game. It was great, 
-          I am great, give me all the jobs and money.
+        <p>For my final project at Makers Academy, I designed, built and deployed a mobile game app to Android.
         </p>
         <a href="https://github.com/carlfjones/DragonPirates" target="_blank" id="github_button">View full project on Github</a>
       </div>
@@ -130,7 +117,7 @@
     <div class="carlexa_title" data-aos="fade-down" data-aos-duration="2000">
       <div class="content">
         <h3>Carlexa</h3>
-        <p>I recently built a clone of Carlexa. The instrucitons are balh ablha blah.
+        <p>I recently built speech recognising app called 'Carlexa', features include telling the time, jokes and randomly genenerating advice from cats.
         </p>
         <a href="https://github.com/carlfjones/carlexa" target="_blank" id="github_button">View full project on Github</a>
       </div>

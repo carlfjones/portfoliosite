@@ -1,0 +1,38 @@
+.landingsection {
+    overflow: hidden;
+    padding-top: 75px;
+    background-image: url("../imgs/Background.jpg");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: stretch;
+
+    @media only screen and (max-width: 992px) {
+        justify-content: center;
+    }
+
+}
+#home_logo_wrapper {
+    cursor: pointer;
+}
+
+.home_logo {
+    margin-top: -60px;
+    margin-left: 10px;
+    z-index: 2;
+    // background-color: whitesmoke;
+    background-image: url(../imgs/homeimglabel.png);
+    background-size: 100%;
+    background-position-x: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    // margin-top: -65px;
+    align-self: flex-start;
+    width: 60px;
+    height: 60px;
+    border-bottom: 50%;
+}
